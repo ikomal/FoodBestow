@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pay</title>
+    <link rel="stylesheet" href="./assets/css/style_price.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style_price.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+      <!-- navbar starts -->
+<header>
+  <a href="/" class="logo"> Foodbestow</a>
+
+  <div id="menu" class="fas fa-bars"></div>
+  <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index_search.html">Search NGO's</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="/experience/index.html">Testimonials</a></li>
+        <li><a class="active" href="donate.html">Donate</a></li>
+      </ul>
+  </nav>
+</header>
+<!-- navbar ends -->
+
+
+    <div class="container">
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <div class="card-type">Basic</div>
+          <h1 class="card-price">25 MEALS</h1>
+          <h3 class="month">/ ₹1750</h3>
+          <div class="list">
+            <div class="list-item">
+           
+            
+            </div>
+         
+          </div>
+          <button type="button" class="card-btn"><a href="pay.html">Pay Now</a></button>
+          
+        </div>
+        <div class="pricing-card">
+          <div class="card-type">Standard</div>
+          <h1 class="card-price">50 MEALS</h1>
+          <h3 class="month">/ ₹3500</h3>
+          <div class="list">
+        
+          </div>
+          <button type="button" class="card-btn"><a href="pay.html">Pay Now</a></button>
+          
+        </div>
+        <div class="pricing-card">
+          <div class="card-type">Premium</div>
+          <h1 class="card-price">100 MEALS</h1>
+          <h3 class="month">/ ₹7000</h3>
+          <div class="list">
+            <div class="list-item">
+            
+            </div>
+          </div>
+          <button type="button" class="card-btn"><a href="pay.html">Pay Now</a></button>
+          
+        </div>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="box">
+        <h2> Meal Price Calculator</h2>
+    
+        <form>
+          <div class="form-group">
+            <label for="price">Price</label>
+            <input type="text" name="price" value="10" id="price">
+          </div>
+    
+          <div class="form-group">
+            <label for="quantity">Total Cost<br>
+              <button type="button" class="card-btn"><a href="pay.html">Pay Now</a></button>
+              <span class="total-cost">1</span>
+            </label>
+            <input  style="width: 0px;height: 0px;"="range" name="quantity" value="1" id="quantity" min="1" max="100" step="1">
+          </div>
+      </form>
+          
+     
+      <div class="total-cost">
+      </div>
+    </div>
+  </div>  
+            <!-- Contact Section -->
+            <section class="contact-section" id="contact">
+              <div class="container">
+                  <div class="heading">
+                      <h2>Connect With Us</h2>
+                      <p>To be a member of group <span>Donation</span> or <span>Wastage</span> from your place.</p>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12 mt-5">
+                          <form class="contact-form">
+                              <div class="row">
+                                  <div class="col-lg-12">
+                                      <div class="row">
+                                          <div class="col-lg-6">
+                                              <div class="col-lg-12">
+                                                  <div class="form-group">
+                                                      <input type="text" class="form-control" placeholder="Your Name">
+                                                  </div>
+                                              </div>
+                                              <div class="col-lg-12">
+                                                  <div class="form-group">
+                                                      <input type="text" class="form-control" placeholder="Mobile No.">
+                                                      <br>
+                                                      <input type="text" class="form-control" placeholder="Email address">
+                                                  </div>
+                                              </div>
+                                             
+                                          <div class="col-lg-6">
+                                              <div class="form-group">
+                                                  <input type="text" class="form-control" placeholder="Address">
+                                              </div>
+                                              <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <select name="donation" id="donation">
+                                                        <option value="">Availability Timing</option>
+                                                        <option value="food">6:00AM-9:00AM</option>
+                                                        <option value="food">9:00AM-12:00AM</option>
+                                                        <option value="food">12:00AM-3:00PM</option>
+                                                        <option value="food">3:00PM-6:00PM</option>
+                                                      
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                              <div class="form-group">
+                                                  <textarea class="form-control" name="text" id="" cols="90" rows="1" placeholder="Message"></textarea>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-12 mt-3">
+                                              <a href="#" class="btn1 mt-5">Submit Details</a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </section>
+   
+ 
+  <script src="./assets/js/script_style.json"></script>
+  </body>
+</html>
